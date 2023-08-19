@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-#include <dtdio.h>
+#include <stdio.h>
 
 /**
- * main - etermines if a number is positive,negative or zero.
+ * main - Determines if a number is positive, negative or zero.
  *
  * Return: Always 0 (Success)
  */
@@ -19,11 +19,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("% is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
 		printf("%d is negative\n", n);
-	}	
+	}
 	return (0);
 }
